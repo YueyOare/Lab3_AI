@@ -1,0 +1,21 @@
+genre,encoding_index
+genre_adventure,0
+genre_biography,1
+genre_children,2
+genre_classic literature,3
+genre_cookbook,4
+genre_fantasy,5
+genre_fiction,6
+genre_graphic novels,7
+genre_history,8
+genre_horror,9
+genre_mystery,10
+genre_philosophy,11
+genre_poetry,12
+genre_romance,13
+genre_science,14
+genre_science fiction,15
+genre_self-help,16
+genre_travel,17
+genre_true crime,18
+genre_young adult,19
