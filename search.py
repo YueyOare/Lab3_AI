@@ -6,8 +6,10 @@ from huggingface_hub import InferenceClient
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
+from main import get_api_key
+
 # Створення клієнта для роботи з API моделі
-client = InferenceClient(api_key="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")
+client = InferenceClient(api_key=get_api_key())
 
 # Завантаження бази даних книг і жанрів
 books_df = pd.read_csv('books_features.csv')
